@@ -1,0 +1,71 @@
+.farm-body {
+  background-image: url(../img/farm.PNG);
+  background-repeat: no-repeat;
+  // background-attachment: fixed;
+  background-size: cover;
+}
+
+.animal-wrapper {
+  width: 315px;
+
+  // width: 20vw;
+  // display: grid;
+  // grid-template-columns: repeat(2, 1fr);
+  // grid-template-areas: "dog ." ". chick" "duck ." ". horse";
+}
+
+.final-line {
+  height: 80vh;
+  width: 7px;
+  background-color: red;
+  border-radius: 10px;
+  // margin: 20px;
+}
+
+.my-border {
+  border: 3.8px solid $color_gray;
+  border-radius: $border_radius;
+  background-color: rgba(225, 225, 225, 0.7);
+}
+
+.chosen-animal {
+  background-color: rgba(251, 231, 8, 0.7);
+  border: 3.8px solid rgba(251, 231, 8);
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.circle {
+    position: absolute;
+    z-index: 999;
+    top: 35%;
+    left: 40%;
+    padding: 50px;
+    background-color: red; 
+    border: 6px solid #fff;
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.winner {
+  color: $color_white;
+}
+
+.winner-p {
+  color: $color_white;
+  margin-top: -10px;
+}
+
+.my-position {
+    position: relative;
+    top: 400px;
+    left: 15%;
+    width: 200px;
+}

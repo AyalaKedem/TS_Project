@@ -1,0 +1,52 @@
+.grid-box {
+    margin-top: 90px;
+    padding: 120px;
+    border: 2px solid $color_dark_gray;
+    border-radius: $border_radius;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 120px);
+    gap: 10px;
+    @media (max-width: 600px) {
+        margin-top: 55px;
+        border: none;
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.game-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    background-color: $color_light_blue;
+    border-radius: $border_radius;
+    user-select: none;
+    color: $color_black;
+    text-decoration: none;
+    &:hover {
+        background: $color_pink;
+        color: $color_black;
+        border: 2px solid $color_black;
+    }
+    @media (max-width: 600px) {
+        width: 50vw;
+    }
+}
+
+.name {
+    width: 260px;
+    background-color: $color_white;
+    margin-top: 53px;
+}
+
+.project {
+    width: 160px;
+    margin-top: -18px;
+    background-color: $color_white;
+}

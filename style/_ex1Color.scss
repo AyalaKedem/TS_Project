@@ -1,0 +1,51 @@
+.box-size {
+  width: 150px;
+  height: 100px;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.hex-color {
+  user-select: none;
+  text-align: center;
+  line-height: 6.4;
+  color: rgba(0, 0, 0, 0);
+  transition: all 0.25s ease-in-out;
+  &:hover {
+    color: #fff;
+    text-shadow: 0.5px 0.5px 3px #000;
+    cursor: pointer;
+  }
+}
+
+.heart-symbol {
+    user-select: none;
+    cursor: pointer;
+    font-size: 20px;
+    padding: 0px 7px;
+    color: #fff;
+    text-shadow: 0.5px 0.5px 3px #000;
+}
+
+.hex-color-2 {
+  user-select: none;
+  text-align: center;
+  line-height: 2.7;
+  color: #fff;
+  text-shadow: 0.5px 0.5px 3px #000;
+  cursor: pointer;
+}
+
+.rgb-color {
+    user-select: none;
+    text-align: center;
+    line-height: 2.7;
+    color: #fff;
+    text-shadow: 0.5px 0.5px 3px #000;
+  }
+
+.fave-box {
+    background-color: $color_gray;
+    border: 1px solid $color_gray_border;
+    border-radius: $border_radius;
+}

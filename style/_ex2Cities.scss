@@ -1,0 +1,74 @@
+.city_item {
+  padding: 5px;
+  cursor: pointer;
+  &:hover {
+    color: $color_gray_border;
+  }
+}
+
+.city_box {
+  width: 200px;
+  height: 100px;
+  background-color: $color_pink;
+  border-radius: $border_radius;
+  border: 2px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.list-box {
+  user-select: none;
+  width: 120px;
+  height: 30px;
+  line-height: 1.2;
+  text-align: center;
+  list-style: none;
+  background-color: $color_gray;
+  border: 1px solid $color_gray_border;
+  border-radius: $border_radius;
+  cursor: pointer;
+  &:hover {
+    background-color: $color_gray_border;
+    border: 1px solid $color_gray;
+  }
+}
+
+.auto_list {
+  list-style-position: inside;
+  list-style: none;
+}
+ .my-mt {
+  margin-top: 82px;
+ }
+
+ .my-width {
+  width: 200px;
+  background-color: $color_white;
+ }
+
+ .my-ul {
+  margin-top: 36px;
+  border-radius: 0px 0px 20px 20px;
+ }
+
+ .change-bg {
+  background-color: $color_light_yellow;
+  border: 1px solid $color_yellow;
+ }
+
+ .reg-bg {
+  background-color: $color_light_blue;
+  border: 1px solid $color_light_blue_border;
+  border-radius: $border_radius;
+  cursor: pointer;
+  &:hover {
+    background-color: $color_gray_border;
+  }
+ }
+
+ #reset_id {
+  padding: 0px 10px;
+ }

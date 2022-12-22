@@ -1,0 +1,54 @@
+.wrapper {
+  background-color: $color_light_blue;
+  border: 1px solid $color_light_blue_border;
+  border-radius: $border_radius;
+  width: 100%;
+  height: 135px;
+}
+
+.wrapper2 {
+  background-color: $color_gray;
+  border: 1px solid $color_gray_border;
+  border-radius: $border_radius;
+  width: 100%;
+  height: 115px;
+  margin: 4px 0px;
+}
+
+.my_w {
+  width: 340px;
+}
+
+.my_w2 {
+  width: 220px;
+}
+
+.w-50-px {
+  width: 50px;
+}
+
+.weight {
+  font-weight: 900;
+}
+
+.font-size {
+  font-size: 18px;
+}
+
+.status {
+  font-style: italic;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+.task {
+  border: none;
+  background-color: $color_gray;
+  color: $color_black;
+  &:enabled {
+    border: 1px solid $color_black;
+    background-color: $color_white;
+  }
+}

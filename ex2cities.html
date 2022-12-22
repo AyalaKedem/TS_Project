@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cities Search</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/main.css">
+  </head>
+  <body style="direction: rtl;">
+    <a href="./index.html" class="back_btn text-center">For all Games >></a>
+    <div class="container w-75 p-md-5">
+      <h1 class="pt-5 p-md-0">שמירה וחיפוש ערים בישראל</h1>
+
+      <form class="position-relative" action="" autocomplete="off">
+        <input type="text" placeholder="חפש..." class="position-absolute start-0 rounded-5 p-1 pe-3" id="search_input">
+        <ul class="position-absolute start-0 my-ul auto_list pe-3 my-width">
+          <!--  -->
+        </ul>
+      </form>
+
+      <div class="blue_wrapper my-mt d-flex flex-column justify-content-center align-items-center">
+       <form class="m-2" action="" autocomplete="off">
+        <label class="ms-1" for="">הכנס שם עיר לשמירה:</label>
+        <input type="text" class="text-end pe-1" id="user_input">
+      </form>
+      <button class="pink_btn m-2" id="add_btn">הוסף</button>
+      </div>
+      
+      <div class="d-flex justify-content-center align-items-center gap-2" id="for_X">
+        <button class="gray_btn mt-5" id="list_cities_btn">לרשימת הערים המלאה >></button>
+      </div>
+      
+      <div class="pt-4" id="list_cities">
+        <ul class="d-flex pe-4 justify-content-center mb-5 gap-3 flex-wrap border-0" id="list_box">
+          <!--  -->
+        </ul>
+      </div>
+      <div class="" id="box">
+      </div>
+    </div>
+
+    <script type="module" src="./js/ex2cities.js"></script>
+  </body>
+</html>
